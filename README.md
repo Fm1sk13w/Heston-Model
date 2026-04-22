@@ -1,5 +1,5 @@
 # Heston-Model
-## authors: Oliwier Arent, Filip Miśkiewicz, Natalia Przewdzięk
+### Oliwier Arent, Filip Miśkiewicz, Natalia Przewdzięk
 This project focuses on the numerical evaluation of the Heston stochastic volatility model for pricing financial derivatives using Python.
 
 **General topic**
