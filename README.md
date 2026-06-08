@@ -17,3 +17,12 @@ Numerical Solver Implementation: Design and implement an Alternating Direction I
 Semi-Analytical Benchmarking: Implement Heston's semi-analytical solution using characteristic functions and Fourier inversion to serve as a ground-truth benchmark for testing the convergence and accuracy of our numerical PDE solver.
 
 Real-World Application: Extract real-world option pricing data to calibrate the PDE parameters and visualize the resulting implied volatility surface.
+
+#### Setup
+
+```bash
+pip install -r requirements.txt
+jupyter notebook heston_pde_project.ipynb
+```
+
+The LaTeX report is maintained on Overleaf (`main.tex`). Exported figures are saved to `figures/`.
