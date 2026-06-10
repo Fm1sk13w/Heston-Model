@@ -23,6 +23,10 @@ Real-World Application: Extract real-world option pricing data to calibrate the 
 ```bash
 pip install -r requirements.txt
 jupyter notebook heston_pde_project.ipynb
+python calibrate_heston.py          # Issue #6: calibrate to bundled SPY snapshot
+python calibrate_heston.py --live   # refresh quotes from Yahoo Finance
 ```
+
+The notebook `heston_pde_project.ipynb` runs the full pipeline (Sections 1–8). Multi-expiry SPY data for implied-volatility surfaces lives in `data/spy_options_surface.csv`.
 
 The LaTeX report is maintained on Overleaf (`main.tex`). Exported figures are saved to `figures/`.
