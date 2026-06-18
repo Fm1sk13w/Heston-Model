@@ -4,7 +4,7 @@ This project focuses on the numerical evaluation of the Heston stochastic volati
 
 #### General topic
 
-This project focuses on the numerical evaluation of the Heston stochastic volatility model for pricing financial derivatives. While standard models like Black-Scholes assume constant volatility, the Heston model treats variance as a stochastic process, resulting in a complex, two-dimensional parabolic partial differential equation (PDE) with a mixed cross-derivative term. The primary focus of our work will be on the numerical analysis and computational techniques required to solve this degenerate 2D PDE stably and efficiently. We will also check the model's accuracy based on the real data. The project will be implemented in Python.
+This project focuses on the numerical evaluation of the Heston stochastic volatility model for pricing financial derivatives. While standard models like Black-Scholes assume constant volatility, the Heston model treats variance as a stochastic process, resulting in a complex, two-dimensional parabolic partial differential equation (PDE) with a mixed cross-derivative term. The primary focus of our work is on the numerical analysis and computational techniques required to solve this degenerate 2D PDE stably and efficiently. We also check the model's accuracy based on the real data. The project is implemented in Python. The full report: Heston_Model.pdf.
 
 #### Objectives
 
@@ -27,6 +27,4 @@ python calibrate_heston.py          # Issue #6: calibrate to bundled SPY snapsho
 python calibrate_heston.py --live   # refresh quotes from Yahoo Finance
 ```
 
-The notebook `heston_pde_project.ipynb` runs the full pipeline (Sections 1–8). Multi-expiry SPY data for implied-volatility surfaces lives in `data/spy_options_surface.csv`.
-
-The LaTeX report is maintained on Overleaf (`main.tex`). Exported figures are saved to `figures/`.
+The notebook `heston_pde_project.ipynb` runs the full pipeline. Multi-expiry SPY data for implied-volatility surfaces lives in `data/spy_options_surface.csv`.
